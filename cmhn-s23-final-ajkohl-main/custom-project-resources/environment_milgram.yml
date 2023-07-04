@@ -1,0 +1,22 @@
+name: myenv
+channels:
+  - conda-forge
+  - intel
+  - defaults
+  - bioconda
+dependencies:
+  - python=3.7.9
+  - nxviz
+  - notebook
+  - nilearn
+  - watchdog
+  - seaborn
+  - ipython
+  - pandas
+  - networkx
+  - matplotlib
+  - deepdish
+  - jupyterlab
+  - scikit-learn
+  - git-annex
+prefix: myenv

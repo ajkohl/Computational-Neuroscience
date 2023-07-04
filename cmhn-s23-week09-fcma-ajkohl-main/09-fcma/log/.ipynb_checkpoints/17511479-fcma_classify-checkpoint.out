@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/gpfs/gibbs/project/cmhn/share/conda_envs/mybrainiak/lib/python3.7/site-packages/nibabel/loadsave.py", line 90, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/top_n_masks_all/fc_no.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/vast/palmer/home.grace/cmhn_ak2776/cmhn-s23-week09-fcma-ajkohl/09-fcma/./fcma_classify.py", line 70, in <module>
+    top_n_mask = io.load_boolean_mask(top_n_mask_file)
+  File "/gpfs/gibbs/project/cmhn/share/conda_envs/mybrainiak/lib/python3.7/site-packages/brainiak/io.py", line 126, in load_boolean_mask
+    data = nib.load(path).get_data()
+  File "/gpfs/gibbs/project/cmhn/share/conda_envs/mybrainiak/lib/python3.7/site-packages/nibabel/loadsave.py", line 92, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/top_n_masks_all/fc_no.nii.gz'
+Traceback (most recent call last):
+  File "/vast/palmer/home.grace/cmhn_ak2776/cmhn-s23-week09-fcma-ajkohl/09-fcma/./fcma_classify.py", line 65, in <module>
+    (int(left_out_subj), MPI.COMM_WORLD.Get_size())
+ValueError: invalid literal for int() with base 10: 'seq'
+srun: error: c28n01: tasks 0-1: Exited with exit code 1

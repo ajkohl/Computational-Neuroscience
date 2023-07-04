@@ -1,0 +1,4 @@
+2023-03-30 21:34:14,825 - __main__ - INFO - Testing for participant 0.
+Programming starts in 2 process(es)
+2023-03-30 21:34:14,836 - brainiak.fcma.preprocessing - INFO - start to apply masks and separate epochs
+2023-03-30 21:34:21,802 - brainiak.fcma.preprocessing - INFO - data broadcasting done, takes 0.02 s

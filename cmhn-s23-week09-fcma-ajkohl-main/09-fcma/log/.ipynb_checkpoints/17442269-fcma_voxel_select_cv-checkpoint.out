@@ -1,0 +1,7 @@
+2023-03-29 20:22:10,066 - __main__ - INFO - Testing for participant 2.
+Programming starts in 2 process(es)
+pixdim[0] (qfac) should be 1 (default) or -1; setting qfac to 1
+2023-03-29 20:22:10,069 - nibabel.global - INFO - pixdim[0] (qfac) should be 1 (default) or -1; setting qfac to 1
+pixdim[0] (qfac) should be 1 (default) or -1; setting qfac to 1
+2023-03-29 20:22:10,098 - nibabel.global - INFO - pixdim[0] (qfac) should be 1 (default) or -1; setting qfac to 1
+2023-03-29 20:22:10,103 - brainiak.fcma.preprocessing - INFO - start to apply masks and separate epochs

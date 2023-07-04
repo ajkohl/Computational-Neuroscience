@@ -1,0 +1,16 @@
+Source the FSL configuration script using:
+     . /gpfs/loomis/apps/avx/software/FSL/6.0.5-centos7_64/etc/fslconf/fsl.sh
+ To use FSLeyes GUI, load the separate FSLeyes module.
+mkdir: cannot create directory ‘home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/top_n_masks_subsample’: No such file or directory
+Image Exception : #63 :: No image files match: home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/voxel_selection_subsample/*_seq
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  No image files match: home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/voxel_selection_subsample/*_seq
+/var/spool/slurmd/job17495915/slurm_script: line 22: 28789 Aborted                 fslmaths $file -uthr $voxel_number -bin ${output_dir}/${pref}_top${voxel_number}.nii.gz
+Image Exception : #63 :: No image files match: home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/top_n_masks_subsample/fc_no*top100
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  No image files match: home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/top_n_masks_subsample/fc_no*top100
+/var/spool/slurmd/job17495915/slurm_script: line 34: 28790 Aborted                 fslmerge -t ${output_dir}/all_top${voxel_number} ${output_dir}/fc_no*top${voxel_number}.nii.gz
+Image Exception : #63 :: No image files match: home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/top_n_masks_subsample/all_top100
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  No image files match: home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/top_n_masks_subsample/all_top100
+/var/spool/slurmd/job17495915/slurm_script: line 37: 28791 Aborted                 fslmaths ${output_dir}/all_top${voxel_number} -Tmean ${output_dir}/prop_top${voxel_number} -odt float

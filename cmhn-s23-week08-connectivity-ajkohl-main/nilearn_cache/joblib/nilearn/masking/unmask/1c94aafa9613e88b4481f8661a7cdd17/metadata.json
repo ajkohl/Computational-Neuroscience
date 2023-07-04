@@ -1,0 +1,1 @@
+{"duration": 0.12067508697509766, "input_args": {"X": "array([[-0.1714364 , -0.19514321, -0.24510168, ..., -0.38265363,\n        -0.36819248, -0.36819248]])", "mask_img": "<nibabel.nifti1.Nifti1Image object at 0x2ba805017e90>", "order": "'F'"}}

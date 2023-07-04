@@ -1,0 +1,13 @@
+2023-03-30 21:32:08,751 - __main__ - INFO - Testing for participant 7.
+Programming starts in 2 process(es)
+2023-03-30 21:32:08,760 - brainiak.fcma.preprocessing - INFO - start to apply masks and separate epochs
+2023-03-30 21:32:15,900 - brainiak.fcma.preprocessing - INFO - data broadcasting done, takes 0.02 s
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=17513610.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: c28n02: task 0: Out Of Memory
+2023-03-30 21:36:29,015 - brainiak.fcma.classifier - INFO - training done, takes 253.11 s
+2023-03-30 21:47:17,959 - brainiak.fcma.classifier - INFO - prediction done, takes 648.94 s
+2023-03-30 21:47:54,793 - brainiak.fcma.classifier - INFO - prediction done, takes 36.83 s
+slurmstepd: error: *** JOB 17513610 ON c28n02 CANCELLED AT 2023-03-30T22:32:03 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 17513610.0 ON c28n02 CANCELLED AT 2023-03-30T22:32:03 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=17513610.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

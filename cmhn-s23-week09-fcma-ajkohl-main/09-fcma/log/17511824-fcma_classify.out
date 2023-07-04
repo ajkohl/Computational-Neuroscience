@@ -1,0 +1,12 @@
+2023-03-30 20:45:35,495 - __main__ - INFO - Testing for participant 1.
+Programming starts in 2 process(es)
+2023-03-30 20:45:35,504 - brainiak.fcma.preprocessing - INFO - start to apply masks and separate epochs
+2023-03-30 20:45:42,558 - brainiak.fcma.preprocessing - INFO - data broadcasting done, takes 0.02 s
+2023-03-30 20:45:57,381 - brainiak.fcma.classifier - INFO - training done, takes 14.82 s
+2023-03-30 20:45:57,382 - brainiak.fcma.classifier - INFO - prediction done, takes 0.00 s
+--RESULTS--
+[-0.4214959  -0.30680955 -0.92424444 -0.31898534  0.07062434 -0.6216719
+  0.37689758  0.37292822  0.66680449  0.22942823  0.50659724  0.37378834]
+2023-03-30 20:45:57,383 - __main__ - INFO - When leaving subject 1 out for testing using the /home/cmhn_ak2776/palmer_scratch/brainiak_results/fcma_results/top_n_masks_all/fc_no1_result_seq_top1500.nii.gz mask for an intrinsic correlation, the accuracy is 11 / 12 = 0.92
+2023-03-30 20:45:58,125 - brainiak.fcma.classifier - INFO - training done, takes 15.57 s
+2023-03-30 20:45:58,125 - brainiak.fcma.classifier - INFO - prediction done, takes 0.00 s

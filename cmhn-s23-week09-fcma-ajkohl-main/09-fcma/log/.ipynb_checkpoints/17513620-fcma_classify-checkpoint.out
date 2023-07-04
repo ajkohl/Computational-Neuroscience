@@ -1,0 +1,9 @@
+2023-03-30 21:32:09,376 - __main__ - INFO - Testing for participant 17.
+Programming starts in 2 process(es)
+2023-03-30 21:32:09,386 - brainiak.fcma.preprocessing - INFO - start to apply masks and separate epochs
+2023-03-30 21:32:16,633 - brainiak.fcma.preprocessing - INFO - data broadcasting done, takes 0.02 s
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=17513620.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: c28n02: task 0: Out Of Memory
+2023-03-30 21:36:26,328 - brainiak.fcma.classifier - INFO - training done, takes 249.69 s
+2023-03-30 21:47:14,443 - brainiak.fcma.classifier - INFO - prediction done, takes 648.11 s
+2023-03-30 21:47:52,191 - brainiak.fcma.classifier - INFO - prediction done, takes 37.75 s
